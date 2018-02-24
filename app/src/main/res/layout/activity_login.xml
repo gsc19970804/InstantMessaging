@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    tools:context="com.gsc.im.im.login.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="登入"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/loginphone"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo"
+            android:background="@drawable/inputshap"
+            android:hint="请输入手机号/QQ邮箱" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/loginpassword"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo2"
+            android:background="@drawable/inputshap"
+            android:hint="请输入密码" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/loginyzm"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo3"
+            android:background="@drawable/inputshap"
+            android:hint="请输入验证码" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/yzmimg"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/forgetpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="注册"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/userlogin"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="登录"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

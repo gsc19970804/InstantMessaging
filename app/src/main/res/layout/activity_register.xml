@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    tools:context="com.gsc.im.im.login.RegisterActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/registerphone"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo"
+            android:background="@drawable/inputshap"
+            android:hint="请输入手机号" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/inlogo2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/inputshap"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/registeryzm"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo2"
+            android:background="@drawable/inputshap"
+            android:hint="请输入验证码" />
+
+
+        <Button
+            android:id="@+id/getyzm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="获取验证码" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/registerpassword"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo3"
+            android:background="@drawable/inputshap"
+            android:hint="请输入密码6-16位密码" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/registerpassword2"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo4"
+            android:background="@drawable/inputshap"
+            android:hint="请输入在次输入密码" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputshap">
+
+        <ImageView
+            android:id="@+id/inlogo5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/inlogo" />
+
+        <EditText
+            android:id="@+id/registername"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/inlogo5"
+            android:background="@drawable/inputshap"
+            android:hint="请输入真实姓名" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/registeruser"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="注册"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
